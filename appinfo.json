@@ -1,0 +1,162 @@
+{
+    "appKeys": {
+        "ADD_INFO": 4,
+        "BT_VIBE": 2,
+        "CHARGE_VIBE": 7,
+        "CURRENT_WEATHER": 0,
+        "DATE_STYLE": 19,
+        "HIDE_BATTERY": 8,
+        "HIDE_BT": 9,
+        "HIDE_WEATHER": 10,
+        "HOURLY_VIBE": 1,
+        "INFO_UPDATES_FREQUENCY": 3,
+        "INVERTED": 6,
+        "LANGUAGE": 5,
+        "NIGHT_FINISH": 13,
+        "NIGHT_INVERT_DISPLAY": 16,
+        "NIGHT_MODE": 11,
+        "NIGHT_OFFLINE": 17,
+        "NIGHT_SILENT": 15,
+        "NIGHT_START": 12,
+        "SHAKE_UPDATE": 14,
+        "TEXT_SIZE": 18
+    },
+    "capabilities": [
+        "configurable"
+    ],
+    "companyName": "grakovne@yandex.ru",
+    "longName": "SmartFace",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/battery_20.png",
+                "name": "BAT_ICON_20",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/battery_90.png",
+                "name": "BAT_ICON_90",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/battery_60.png",
+                "name": "BAT_ICON_60",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/battery_40.png",
+                "name": "BAT_ICON_40",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/battery_80.png",
+                "name": "BAT_ICON_80",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/battery_0.png",
+                "name": "BAT_ICON_0",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/Bluetooth_NO.png",
+                "name": "NO_BT_ICON",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/Bluetooth.png",
+                "name": "BT_ICON",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/battery_100.png",
+                "name": "BAT_ICON_100",
+                "type": "bitmap"
+            },
+            {
+                "characterRegex": "[0-9:]",
+                "file": "fonts/Big_Digs.ttf",
+                "name": "IMAGINE_BIG_43",
+                "type": "font"
+            },
+            {
+                "file": "images/battery_Full.png",
+                "name": "BAT_ICON_FULL",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/Updating_Err.png",
+                "name": "UPDATING_ERROR_IMAGE",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/Updating.png",
+                "name": "UPDATING_IMAGE",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/battery_10.png",
+                "name": "BAT_ICON_10",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/battery_30.png",
+                "name": "BAT_ICON_30",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/battery_70.png",
+                "name": "BAT_ICON_70",
+                "type": "bitmap"
+            },
+            {
+                "characterRegex": "[0-9%OKLSHET]",
+                "file": "fonts/imagine_font.ttf",
+                "name": "IMAGINE_TIME_12",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[ -~ \u0410-\u042f \u0430-\u044f]",
+                "file": "fonts/imagine_font.ttf",
+                "name": "IMAGINE_TIME_17",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[ 0-9:]",
+                "file": "fonts/imagine_font.ttf",
+                "name": "IMAGINE_TIME_37",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[ -~ \u0410-\u042f \u0430-\u044f]",
+                "file": "fonts/imagine_font.ttf",
+                "name": "IMAGINE_TIME_14",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[ 0-9:]",
+                "file": "fonts/imagine_font.ttf",
+                "name": "IMAGINE_TIME_43",
+                "type": "font"
+            },
+            {
+                "file": "images/battery_50.png",
+                "name": "BAT_ICON_50",
+                "type": "bitmap"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "SmartFace",
+    "targetPlatforms": [
+        "aplite",
+        "basalt",
+        "chalk"
+    ],
+    "uuid": "55ff601c-2ac2-482d-ba73-342f77bcd648",
+    "versionLabel": "3.6",
+    "watchapp": {
+        "watchface": true
+    }
+}
